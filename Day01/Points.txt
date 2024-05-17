@@ -1,0 +1,70 @@
+https://github.com/colkiran/MindTech
+
+lambdas
+-------
+result of exp = lambda var1, var2, var3...: Expression
+
+x = lambda a, b: a + b
+res = x(10, 20)
+
+
+map - expression (x ** 2)
+l1 = [1, 2, 3, 4, 5]
+
+Scope of a variable
+-------------------
+Global variable
+
+Local Variable
+
+Non local variable
+
+
+-------------------------------------
+
+@timecalc
+def fun():
+   pass
+
+decorator that calculates the time taken by the function to execute
+
+import time
+st = time.perf_counter()
+
+
+class Methods
+-------------
+Factory Pattern -
+
+age  - DOB
+
+Player.createPlayer("Virat", "15/03/1998")
+
+
+Operator Overloading
+---------------------
+one operator for different uses
+
++  - add, concatenate
+*  - multiply, print a string n number of times
+
+
++  - __add__	- slang - magic method
+
+
+
+@total_ordering
+---------------
+overload two operators
+
+  a. comparison (==)   (mandatory)
+  b. any one comparison operator
+
+all the comparison operators will work
+
+Assignment 
+==========
+
+code to overload all arithmetic operators
+
+
