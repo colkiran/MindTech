@@ -26,5 +26,36 @@ print(f"Diff is :{res.d}")
 print(f"Prod is :{res.p}")
 print(f"Quot is :{res.q}")
 
-res.p = 500
+# res.p = 500
+
+print("-" * 60)
+
+def fun():
+    # this is a comment
+    "This is a doc string"
+    print("Hello World")
+
+
+fun()
+# double underscore doc  - dunder_doc
+print(fun.__doc__)
+
+print("-" * 60)
+
+def fun1(x, y):
+    """
+    fun1
+    ----
+    1. if both the arguments are numbers then we get the sum of the numbers as a return value
+    2. if both the arguments are strings then we get the concatenated string as a return value
+    3. if the arguments are of different data types then it throws an error
+    """
+
+    return x + y
+
+print(fun1(20, 30))
+print(fun1("hello", "world"))
+# print(fun1("hello", 30))
+
+help(fun1)
 
