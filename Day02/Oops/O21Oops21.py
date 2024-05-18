@@ -23,8 +23,7 @@ def BankJob(emp):
     print("Bank job started.......")
     emp.doJob()
     print("Bank job ended........")
-    print("-" * 60)
-
+    print("-" * 60)  
 Mike = Manager()
 Dave = Developer()
 
