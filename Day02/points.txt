@@ -1,0 +1,83 @@
+Setter Method
+
+Getter Method
+
+
+Basic Regular Expressions
+-------------------------
+
+.	- 	single character
+
+
+^	- 	Beginning of the string
+$	- 	End of the string
+
+
+*	-	zero or more occurrence 
+?	-	zero or one occurrence
++	- 	one or more occurrence
+{n}	-	exactly n times
+{n,}	-	min n times, max infinite times
+{n, m}  - 	min n times, max m times
+
+()	-	grouping
+[]	-	character class
+|	-	Alternation (or)
+\	-	supress the meaning of regex
+
+------------------------------------------------------------------------------------
+
+LCNO-KAR-05-2019-0123
+
+
+LCNO-  =>  No changes
+
+KAR =>  KAR, KER, TND, APN, TEL, MAH
+ 
+05 => RTO office Number - 01 - 73 (no 00)
+
+2019 => anything greater than 2000
+
+0213 - 0001 - 9999 (no 0000)
+
+regex = 'LCNO-()-()-()' 
+
+lno = "LCNO-KAR-05"
+
+
+
+\w	- word 		- alpha numeric code
+
+\W	- non word	- special characters
+
+\s	- space		- spaces
+
+\S	- non space	- any thing other than spaces
+
+\d	- digit		- numeric
+
+\D	- non digit	- non numeric
+
+\b	- word boundary	 -
+
+\B 	- non word boundary
+
+\A  	- Beginning of the string
+
+\Z 	- End of the string
+
+
+Mastering Regular Expressions - orielly
+
+
+ 
+
+
+
+
+
+
+
+
+
+
