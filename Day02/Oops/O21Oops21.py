@@ -30,5 +30,4 @@ Dave = Developer()
 
 
 BankJob(Mike)           # manager's job
-
 BankJob(Dave)           # developer's job
