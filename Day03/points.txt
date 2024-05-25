@@ -1,0 +1,125 @@
+We will start sharp at 9:45 AM
+------------------------------
+
+1. Exceptions
+
+2. Rest API
+
+3. Pytest
+
+
+Exceptions
+----------
+try:
+  
+   error prone code
+
+
+except:
+
+    catch the error
+
+else:
+
+    when there is no error
+
+finally:
+
+    executes on all scenarios
+
+
+REST API
+--------
+Text data
+---------
+
+XML - Webserives
+----------------
+
+Light Weight Web Application
+----------------------------
+JavaScript - AngularJS, ReactJS, ...
+
+JSON - JavaScript Object Notation
+
+REST API 
+--------
+Json data - dictionary, hash 
+
+FLASK REST API
+--------------
+
+
+create modules - Libraries
+--------------------------
+
+Libraries installed
+--------------------
+1. flask
+2. flask_restful
+3. requests
+
+
+1. GET
+2. POST
+3. PUT
+4. DELETE
+
+
+Pytest
+------
+Pytest is a test framework in python, it is mainly used to write API test cases.
+
+pip install pytest
+
+1. we can run multiple test cases parallelly that reduces the execution time
+
+2. pytest has its own way to detect the test file or test functions automatically
+
+3. pytest will skip a subset of the test during execution
+
+4. pytest allows us to run a subset of the entire test suite
+
+5. pytest is an opensource
+
+colkiran@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
